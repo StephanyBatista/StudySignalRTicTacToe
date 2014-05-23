@@ -1,0 +1,99 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+#game {
+    padding-left: 50px;
+    margin-top: 50px;
+    height: 200px;
+    display: none;
+}
+
+#msgGame {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#msgTime {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.game-cel {
+    height: 50px;
+    width: 50px;
+    cursor: none;
+}
+
+.move-cel {
+    font-size: 20px;
+}
+
+.col-md-1cel {
+    float: left;
+    width: 8.333333333333332%;
+}
+
+#a1, #b1 {
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+#a2, #b2 {
+    border-bottom: 2px solid #000000;
+}
+
+#a3, #b3 {
+    border-left: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+#c1 {
+    border-right: 2px solid #000000;
+}
+
+#c2 {
+}
+
+#c3 {
+    border-left: 2px solid #000000;
+}

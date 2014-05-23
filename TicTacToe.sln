@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.Model", "TicTacToe.Model\TicTacToe.Model.csproj", "{A132883C-A37D-4D76-B560-25BEC175345F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.ModelTests", "TicTacToe.ModelTests\TicTacToe.ModelTests.csproj", "{EA68DA0D-9264-4A18-823E-D049D102FBCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.Web", "TicTacToe.Web\TicTacToe.Web.csproj", "{126753A8-BA24-4717-BA79-A07091523C54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BA682C77-5BE9-4DA9-B091-05CCE037503D}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A132883C-A37D-4D76-B560-25BEC175345F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A132883C-A37D-4D76-B560-25BEC175345F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A132883C-A37D-4D76-B560-25BEC175345F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A132883C-A37D-4D76-B560-25BEC175345F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA68DA0D-9264-4A18-823E-D049D102FBCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA68DA0D-9264-4A18-823E-D049D102FBCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA68DA0D-9264-4A18-823E-D049D102FBCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA68DA0D-9264-4A18-823E-D049D102FBCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{126753A8-BA24-4717-BA79-A07091523C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{126753A8-BA24-4717-BA79-A07091523C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{126753A8-BA24-4717-BA79-A07091523C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{126753A8-BA24-4717-BA79-A07091523C54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

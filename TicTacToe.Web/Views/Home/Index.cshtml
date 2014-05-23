@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>ASP.NET</h1>
+</div>
+
+<div class="row">
+
+    <div id="form-name" class="form-horizontal">
+        <div class="form-group">
+            <label class="control-label col-sm-3 col-md-2" for="Email">
+                Nome
+            </label>
+            <div class="col-sm-9 col-md-10">
+                <input class="form-control" id="Name" name="Name" type="text" value="">
+            </div>
+        </div>
+        <div class="form-group">
+            <span class="control-label col-sm-3 col-md-2"></span>
+            <div class="col-sm-9 col-md-10">
+                <button class="btn-default  btn" type="button" id="SaveName">Acessar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div id="rooms"></div>
+    </div>
+    <div class="row">
+        <span id="msgGame"></span>
+        <div id="game">
+            <div class="row">
+                <span id="msgTime">Aguarde</span>
+            </div>
+            <div class="row">
+                <div id="a1" class='col-md-1cel game-cel' onclick="makeMove('a1');"></div>
+                <div id="a2" class='col-md-1cel game-cel' onclick="makeMove('a2');"></div>
+                <div id="a3" class='col-md-1cel game-cel' onclick="makeMove('a3');"></div>
+            </div>
+            <div class="row">
+                <div id="b1" class='col-md-1cel game-cel' onclick="makeMove('b1');"></div>
+                <div id="b2" class='col-md-1cel game-cel' onclick="makeMove('b2');"></div>
+                <div id="b3" class='col-md-1cel game-cel' onclick="makeMove('b3');"></div>
+            </div>
+            <div class="row">
+                <div id="c1" class='col-md-1cel game-cel' onclick="makeMove('c1');"></div>
+                <div id="c2" class='col-md-1cel game-cel' onclick="makeMove('c2');"></div>
+                <div id="c3" class='col-md-1cel game-cel' onclick="makeMove('c3');"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+
+    <script type="text/javascript" src="/Scripts/jquery.signalR-2.0.3.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.tictactoe-0.0.1.js?v=1"></script>
+    <script src="@Url.Content("~/signalr/hubs")"></script>
+}
